@@ -7,11 +7,24 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: linear-gradient(cornflowerblue, #333);
+  /* background: linear-gradient(pink, violet); */
 }
 
-button {
+/* button { */
+/*   font-family: "Titillium Web", sans-serif; */
+input[type="submit"] {
   font-size: 7px;
+  font-weight: bold;
+  color: #fff;
+  background: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 2px 5px 5px #333;
 }
 
 #main-content {
