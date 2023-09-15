@@ -18,6 +18,7 @@
 //   });
 // });
 
+// refactor 1
 const form = document.getElementById("create-task-form");
 const taskList = document.getElementById("tasks");
 
